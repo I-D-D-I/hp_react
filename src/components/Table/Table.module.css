@@ -1,0 +1,10 @@
+.services__wrapper {
+    max-width: 688px;
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 20px auto;
+    gap: 20px;
+}
