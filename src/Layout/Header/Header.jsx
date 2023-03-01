@@ -1,7 +1,8 @@
-import React from 'react'
-import s from './Header.module.css'
+import React, { useState } from "react";
+import s from "./Header.module.css";
 
-export const Header = () => {
+export const Header = ({ inputvalue, setInputvalue, select, setSelect }) => {
+
   return (
     <div className={s.header}>
       <div className={s.header__box}>
@@ -11,21 +12,34 @@ export const Header = () => {
         </p>
         <div className={s.header__inputs}>
           <div className={s.select__wrapper}>
-            <label className={s.header__label} for="header__input">
+            <label className={s.header__label} htmlFor="id1">
               Name
             </label>
             <input
+              id="id1"
               className={s.header__input}
               type="text"
               placeholder="Hermione"
+              value={inputvalue}
+              onChange={(evt) => setInputvalue(evt.target.value)}
             />
           </div>
           <div className={s.select__wrapper}>
-            <label className={s.header__label} for="header__select">
+            <label className={s.header__label} htmlFor="id2">
               School
             </label>
-            <select className={s.header__select} name="schools">
-              <option selected disabled className={s.select__first} value="">
+            <select
+              id="id2"
+              className={s.header__select}
+              name="schools"
+              onChange={(evt) => setSelect(evt.target.value)}
+            >
+              <option
+                defaultValue
+                disabled
+                className={s.select__first}
+                value=""
+              >
                 Choose one
               </option>
               <option className={s.select__school} value="Slytherin">
@@ -46,4 +60,4 @@ export const Header = () => {
       </div>
     </div>
   );
-}
+};
