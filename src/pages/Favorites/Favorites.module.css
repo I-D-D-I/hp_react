@@ -1,0 +1,35 @@
+.header {
+    max-width: 688px;
+    margin: 0 auto;
+    padding: 64px 0 0;
+    border-bottom: 1px solid #DEE2E6;
+    background-color: #F5F5F5;
+}
+
+.header__title {
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 77px;
+    color: #000000;
+    text-align: left;
+}
+
+.header__subtitle {
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-size: 21px;
+    line-height: 36px;
+    color: #000000;
+    text-align: left;
+    margin-bottom: 79px;
+}
+
+.link {
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+text-decoration-line: underline;
+color: #3F444A;
+}

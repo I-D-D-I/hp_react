@@ -2,8 +2,13 @@ import React, { useState } from "react";
 import { Footer } from "./Footer/Footer";
 import { Header } from "./Header/Header";
 
-export const Layout = ({ children, inpvalue, setInpvalue, select, setSelect }) => {
-
+export const Layout = ({
+  children,
+  inpvalue,
+  setInpvalue,
+  select,
+  setSelect
+}) => {
   return (
     <>
       <Header
@@ -13,7 +18,7 @@ export const Layout = ({ children, inpvalue, setInpvalue, select, setSelect }) =
         setSelect={setSelect}
       />
 
-      <main>{children}</main>
+          <main>{children}</main>
       <Footer />
     </>
   );

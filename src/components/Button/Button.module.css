@@ -1,0 +1,37 @@
+.btn{
+    position: fixed;
+    bottom: 50px;
+    right: 100px;
+    width: 157px;
+    height: 48px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #3F444A;
+    background: #FFFFFF;
+    box-shadow: 0px 8px 35px rgba(0, 0, 0, 0.16);
+    border-radius: 48px;
+    border: none;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+}
+.like__img {
+    display: inline;
+    width: 24px;
+    height: 23px;
+    transition: .4s;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.like__text {
+    display: inline;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #3F444A;
+}
