@@ -75,6 +75,7 @@ function App() {
         }
       />
       <Route
+        basename="/ hp_react"
         path="/Favorites"
         element={
           <Favorites
