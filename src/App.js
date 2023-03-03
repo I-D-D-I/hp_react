@@ -34,30 +34,6 @@ function App() {
 
 
   return (
-    // <Layout
-    //   inpvalue={value}
-    //   setInpvalue={setValue}
-    //   select={select}
-    //   setSelect={setSelect}
-    // >
-    //   <Table>
-    //     {newData.map((el, ind) => (
-    //       <Cards
-    //         key={ind}
-    //         image={el.image}
-    //         nameHero={el.name}
-    //         actor={el.actor}
-    //         gender={el.gender}
-    //         house={el.house}
-    //         wandCore={el.wand.core}
-    //         alive={el.alive ? "yes" : "no"}
-    //         like={like}
-    //         dislike={dislike}
-    //         isLiked={liked.includes(el.name)} // если в массиве имен liked есть name, то true
-    //       />
-    //     ))}
-    //   </Table>
-    // </Layout>
     <Routes>
       <Route
         path="/"
@@ -75,7 +51,6 @@ function App() {
         }
       />
       <Route
-        basename="/ hp_react"
         path="/Favorites"
         element={
           <Favorites
@@ -88,16 +63,6 @@ function App() {
       />
     </Routes>
 
-    // <Home
-    //   inpvalue={value}
-    //   setInpvalue={setValue}
-    //   select={select}
-    //   setSelect={setSelect}
-    //   newData={newData}
-    //   like={like}
-    //   dislike={dislike}
-    //   liked={liked}
-    // />
   );
 }
 

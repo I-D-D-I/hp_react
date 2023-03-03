@@ -2,7 +2,7 @@
   "name": "hp_react",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://I-D-D-I.github.io/hp_react",
+  "homepage": "https://i-d-d-i.github.io/hp_react/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
