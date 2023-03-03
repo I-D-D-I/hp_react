@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/hp_react/static/css/main.bcc63c17.css",
+    "main.js": "/hp_react/static/js/main.d9b56c6e.js",
+    "static/media/empty.svg": "/hp_react/static/media/empty.cfb3374a8739fefc1f544bf034a5b662.svg",
+    "index.html": "/hp_react/index.html",
+    "static/media/filled.svg": "/hp_react/static/media/filled.780ebc7d4c10690fda53cf4761560d8c.svg",
+    "main.bcc63c17.css.map": "/hp_react/static/css/main.bcc63c17.css.map",
+    "main.d9b56c6e.js.map": "/hp_react/static/js/main.d9b56c6e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bcc63c17.css",
+    "static/js/main.d9b56c6e.js"
+  ]
+}
